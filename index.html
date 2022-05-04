@@ -9,55 +9,54 @@
   <body>
 
     <a-scene id = "shapes" environment="preset:forest">
-    <a-plane position="0 0.05 -4" rotation="-90 0 0" width="8" height="8" color="purple" value = "plane1"></a-plane>
+
+    <a-box position="3.2 0.3 -4.5" color="black" depth="0.5" height="0.5" width="0.5"></a-box>
+    <a-cylinder position="3.2 1 -4.5" color="crimson" height="3" radius="0.2"></a-cylinder>
+
+    <a-box position="-3.2 0.3 -4.5" color="black" depth="0.5" height="0.5" width="0.5"></a-box>
+    <a-cylinder position="-3.2 1 -4.5" color="crimson" height="3" radius="0.2"></a-cylinder>
+
+    <a-box position="-3.2 0.3 -11.5" color="black" depth="0.5" height="0.5" width="0.5"></a-box>
+    <a-cylinder position="-3.2 1 -11.5" color="crimson" height="3" radius="0.2"></a-cylinder>
+
+    <a-box position="3.2 0.3 -11.5" color="black" depth="0.5" height="0.5" width="0.5"></a-box>
+    <a-cylinder position="3.2 1 -11.5" color="crimson" height="3" radius="0.2"></a-cylinder>
 
 
 
-    <a-box position="3.2 0.3 -0.5" color="black" depth="0.5" height="0.5" width="0.5"></a-box>
-    <a-cylinder position="3.2 1 -0.5" color="crimson" height="3" radius="0.2"></a-cylinder>
+    <a-box position="3.2 0.5 -8" color="#FFD700" depth="6.7" height="4" width="0.2"></a-box>
 
-    <a-box position="-3.2 0.3 -0.5" color="black" depth="0.5" height="0.5" width="0.5"></a-box>
-    <a-cylinder position="-3.2 1 -0.5" color="crimson" height="3" radius="0.2"></a-cylinder>
+    <a-box position="-3.2 0.5 -8" color="#FFD700" depth="6.7" height="4" width="0.2"></a-box>
 
-    <a-box position="-3.2 0.3 -7.5" color="black" depth="0.5" height="0.5" width="0.5"></a-box>
-    <a-cylinder position="-3.2 1 -7.5" color="crimson" height="3" radius="0.2"></a-cylinder>
+    <a-box position="0 1 -11.5" color="#FFD700" depth="0.5" height="3" width="6"></a-box>
 
-    <a-box position="3.2 0.3 -7.5" color="black" depth="0.5" height="0.5" width="0.5"></a-box>
-    <a-cylinder position="3.2 1 -7.5" color="crimson" height="3" radius="0.2"></a-cylinder>
-  
-  
-  
-    <a-box position="3.2 0.5 -4" color="#FFD700" depth="6.7" height="4" width="0.2"></a-box>
 
-    <a-box position="-3.2 0.5 -4" color="#FFD700" depth="6.7" height="4" width="0.2"></a-box>
 
-    <a-box position="0 1 -7.5" color="#FFD700" depth="0.5" height="3" width="6"></a-box>
-    
-    
-    
-    <a-box position="0 0.3 -4" color="tomato" depth="6.7" height="0.4" width="6"></a-box>
- 
-    <a-box position="0 0.05 -0.5" color="tomato" depth="0.2" height="1" width="6"></a-box>
-    
-    <a-box position= "0 0 0" color="tomato" depth="1" height="1" width="2"></a-box>
-    
-    <a-box position= "0 -0.2 1" color="tomato" depth="1" height="1" width="2"></a-box>
-    
-    <a-box postion = "0 -2 0" color="brown" depth="6.7" height="0.4" width="6"></a-box>
-    
-    <a-box position= "0 2.5 -4"  color="purple" depth="8" height="0.1" width="7"></a-box>
-    
-    <a-box position= "-1 5 -4"  rotation= "0 0 45"color="#20B2AA" depth="8" height="0.1" width="7"></a-box>
-   
-    <a-box position= "1 5 -4"  rotation= "0 0 -45"color="#20B2AA" depth="8" height="0.1" width="7"></a-box>
+    <a-box position="0 0.3 -8" color="tomato" depth="6.7" height="0.4" width="6"></a-box>
 
-    <a-dodecahedron position= "0 6 0" color="#FF926B" radius="1"></a-dodecahedron>
-    
-    <a-cylinder position= "3 0 3.3"color="crimson" height="5" radius="0.1"></a-cylinder>
-    
-    <a-box position ="4 2 3.3" depth="0.5" height="1" width="2" ></a-box>
-    
-    <a-text value="House In Progress!" position="3 2 3.6" color="black"></a-text>
+    <a-box position="0 0.05 -4.5" color="tomato" depth="0.2" height="1" width="6"></a-box>
+
+    <a-box position= "0 0 -4" color="tomato" depth="1" height="1" width="2"></a-box>
+
+    <a-box position= "0 -0.2 -3" color="tomato" depth="1" height="1" width="2"></a-box>
+
+    <!--<a-box postion = "0 -2 -11" color="brown" depth="6.7" height="0.4" width="6"></a-box>-->
+
+    <a-box position= "0 2.5 -8"  color="purple" depth="8" height="0.1" width="7"></a-box>
+
+   // roof top
+    <a-box position= "-1 5 -8"  rotation= "0 0 45"color="#20B2AA" depth="8" height="0.1" width="7"></a-box>
+
+    <a-box position= "1 5 -8"  rotation= "0 0 -45"color="#20B2AA" depth="8" height="0.1" width="7"></a-box>
+
+    <a-dodecahedron position= "0 6 -4" color="#FF926B" radius="1"></a-dodecahedron>
+
+  // front and sign of the house
+    <a-cylinder position= "3 0 -3.3"color="crimson" height="5" radius="0.1"></a-cylinder>
+
+    <a-box position ="4 2 -3.3" depth="0.5" height="1" width="2" ></a-box>
+
+    <a-text value="House In Progress!" position="3 2 -3" color="black"></a-text>
 
 
 
@@ -65,9 +64,8 @@
     </a-scene>
 
 
-       
+
 
 
   </body>
 </html>
-     
