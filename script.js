@@ -117,14 +117,12 @@ window.onload = function(){ // when page load up
     scene.append(text4) 
     
     let carp = document.createElement("a-box")
-    carp.setAttribute('position',{x:-8,y:2,z:-9.5})
+    carp.setAttribute("position",{x:-7,y:2.4,z:-9.5})
     carp.setAttribute("depth",0.5)
-    carp.setAttribute("height",1)
+    carp.setAttribute("height",1.5)
     carp.setAttribute("width",0.8)
-    carp.append(carp)
-
-
-    
+    carp.setAttribute("color","red")
+    scene.append(carp)
    
     
 }
